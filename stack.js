@@ -11,7 +11,6 @@ constructor(total_size)
     this.total_size = total_size;             
 }
 
-
 push(ele)    
 {
 if(this.top==this.total_size-1)
