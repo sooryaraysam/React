@@ -20,7 +20,7 @@ if(this.top==this.total_size-1)
 }
 else
 {
-    this.top += 1;
+    this.top = this.top + 1;
     this.array[this.top] = ele;
     console.log(`The element being pushed is ${ele}`)
     return this.top;
@@ -42,7 +42,6 @@ else
     return this.top;       
 }
 }
-
 peek()
 {
 if(this.top == -1)
@@ -58,7 +57,9 @@ else
 }
 
 
-let stack = new Stack(3);
+let stack = new Stack(1);
+
+
 stack.push(5);
 stack.push(6);
 stack.pop()
