@@ -42,6 +42,19 @@ else
 }
 }
 
+
+peek()
+{
+if(this.top == -1)
+{
+    console.log("Stack is empty")
+}
+else
+{   
+    console.log("The top element of the Stack is " + this.array[this.top]);   
+}
+}
+
 }
 
 
