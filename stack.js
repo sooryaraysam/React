@@ -57,6 +57,14 @@ else
 
 }
 
+let stack = new Stack(5);
+
+
+stack.push(5);
+stack.push(6);
+stack.pop()
+stack.peek();
+
 
 
 
