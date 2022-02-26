@@ -26,6 +26,22 @@ else
 }
 }
 
+pop()
+{
+if(this.top==-1)
+console.log("underfow!!");
+
+else
+{
+    console.log("Initiating Stack pop process ")
+    console.log(`${this.array[this.top]} is popped`)
+    this.top=this.top-1;
+    
+    console.log("Pop process ends ")
+    return this.top;       
+}
+}
+
 }
 
 
